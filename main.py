@@ -342,3 +342,14 @@ if __name__ == '__main__':
     plt.xlabel('Episode')
     plt.ylabel('Reward')
     plt.show()
+# testing for different input reference values : uncomment to visualize the plots
+# x,u=agent.eval_func(0,50,0.5)
+# ref=[]
+# for i in range(50):
+#   ref.append(0.5)
+# plt.plot(x)
+# plt.plot(u)
+# plt.plot(ref,linestyle='dashed')
+# plt.legend(['x','u','ref'])
+# plt.grid()
+# plt.show()
